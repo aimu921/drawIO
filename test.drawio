@@ -1,9 +1,44 @@
-<mxfile host="app.diagrams.net" modified="2023-04-19T06:47:26.450Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.9" etag="ynKgPwmKycbypwrwaJdO" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-19T09:16:12.352Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="VnQ-_U0GkME_Wa8rPhHU" version="21.1.9" type="github">
   <diagram name="第 1 页" id="_oR6SEdkEH74sN8JZa4k">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QlE07YrwZrOXN1HyVryi-8" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;&lt;b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 深创投内网环境&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="99" y="280" width="630" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="QlE07YrwZrOXN1HyVryi-1" value="深创投" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="230" y="350" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QlE07YrwZrOXN1HyVryi-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QlE07YrwZrOXN1HyVryi-2" target="QlE07YrwZrOXN1HyVryi-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QlE07YrwZrOXN1HyVryi-7" value="2、推送排重后的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QlE07YrwZrOXN1HyVryi-6">
+          <mxGeometry x="-0.4" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlE07YrwZrOXN1HyVryi-2" value="闻海服务-推送程序" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="230" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="QlE07YrwZrOXN1HyVryi-3" value="深创投排重服务" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="520" y="340" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QlE07YrwZrOXN1HyVryi-9" value="" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="QlE07YrwZrOXN1HyVryi-3">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="350" y="120" as="sourcePoint" />
+            <mxPoint x="450" y="20" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="120" />
+              <mxPoint x="590" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlE07YrwZrOXN1HyVryi-10" value="1、获取到数据调用排重服务，重复返回false" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QlE07YrwZrOXN1HyVryi-9">
+          <mxGeometry x="0.1525" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
